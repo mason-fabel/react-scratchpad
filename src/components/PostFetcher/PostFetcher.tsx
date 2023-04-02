@@ -9,9 +9,7 @@ const rootUrl = "https://dummyjson.com/posts";
 
 const PostFetcher = () => {
 	const [excerpts, setExcerpts] = useState<{ [key: number]: PostType }>({});
-	const [filteredExcerpts, setFilteredExcerpts] = useState<{
-		[key: number]: PostType;
-	}>({});
+	const [filteredExcerpts, setFilteredExcerpts] = useState<{ [key: number]: PostType }>({});
 	const [posts, setPosts] = useState<{ [key: number]: PostType }>({});
 	const [activeFilters, setActiveFilters] = useState<string[]>([]);
 
