@@ -1,5 +1,6 @@
-import { ReactNode } from "react";
-import { PostType } from "./Types";
+import { ReactNode } from 'react';
+
+import { PostType } from './Types';
 
 interface PostBodyProps {
 	post: PostType;

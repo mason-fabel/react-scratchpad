@@ -1,6 +1,6 @@
-import PostBody from "./PostBody";
-import PostFooter from "./PostFooter";
-import { PostType } from "./Types";
+import PostBody from './PostBody';
+import PostFooter from './PostFooter';
+import { PostType } from './Types';
 
 interface PostProps {
 	post: PostType;

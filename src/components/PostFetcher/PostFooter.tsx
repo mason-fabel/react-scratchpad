@@ -1,4 +1,4 @@
-import { PostType } from "./Types";
+import { PostType } from './Types';
 
 interface PostFooterProps {
 	post: PostType;

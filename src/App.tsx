@@ -1,4 +1,4 @@
-import PostFetcher from "./components/PostFetcher";
+import PostFetcher from './components/PostFetcher';
 
 function App() {
   return (

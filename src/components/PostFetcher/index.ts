@@ -1,3 +1,3 @@
-import PostFetcher from "./PostFetcher";
+import PostFetcher from './PostFetcher';
 
 export default PostFetcher;

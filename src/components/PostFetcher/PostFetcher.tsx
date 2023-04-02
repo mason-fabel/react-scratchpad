@@ -1,10 +1,10 @@
-import axios from "axios";
-import { useEffect, useState } from "react";
+import axios from 'axios';
+import { useEffect, useState } from 'react';
 
-import FilterBar from "./FilterBar";
-import FullPost from "./FullPost";
-import PostExcerpt from "./PostExcerpt";
-import { PostType } from "./Types";
+import FilterBar from './FilterBar';
+import FullPost from './FullPost';
+import PostExcerpt from './PostExcerpt';
+import { PostType } from './Types';
 
 const rootUrl = "https://dummyjson.com/posts";
 
